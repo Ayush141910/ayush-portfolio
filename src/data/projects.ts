@@ -39,7 +39,7 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "GitHub", href: "https://github.com/Ayush141910/aegisflow-risk-platform" },
-      { label: "Add live demo link", href: "#", placeholder: true },
+      { label: "Live Demo", href: "https://ayush141910.github.io/aegisflow-risk-platform/" },
       { label: "Add case study link", href: "#", placeholder: true },
     ],
   },

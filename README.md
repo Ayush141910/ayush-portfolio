@@ -10,7 +10,7 @@ I am a Master's student in Data Science at the University of Texas at Arlington.
 
 ## Featured Work
 
-- **AegisFlow** — Real-time risk and resilience platform using Kafka, Spark Structured Streaming, Delta Lake, Airflow, Great Expectations, MLflow, and Streamlit.
+- **AegisFlow** — Real-time risk and resilience platform using Kafka, Spark Structured Streaming, Delta Lake, Airflow, Great Expectations, MLflow, and Streamlit. [GitHub](https://github.com/Ayush141910/aegisflow-risk-platform) · [Live Demo](https://ayush141910.github.io/aegisflow-risk-platform/)
 - **ValorPredict** — Valorant match outcome predictor and performance analyzer with machine learning models and a Streamlit dashboard.
 - **Food For U** — Flutter-based restaurant recommendation app powered by user taste profiles, restaurant data, and ETL pipelines.
 
