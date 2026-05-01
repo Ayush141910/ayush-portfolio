@@ -80,21 +80,27 @@ src/data/profile.ts
 
 The contact section reads email, LinkedIn, GitHub, and location from that file.
 
-## GitHub Pages Deployment
+## GitHub Actions
 
-This project includes a GitHub Actions workflow at:
+This repository includes a GitHub Actions workflow at:
 
 ```text
-.github/workflows/deploy.yml
+.github/workflows/ci.yml
 ```
+
+The workflow installs dependencies and runs `npm run build` on every push to `main`, so GitHub can show a green check when the portfolio is healthy.
+
+## GitHub Pages Deployment
+
+This portfolio is currently deployed on Vercel using the live link above. GitHub Pages can also host the same static build for free if you want a `github.io` URL later.
 
 ### Steps
 
 1. Push this project to a GitHub repository.
 2. Go to `Repository Settings -> Pages`.
 3. Set `Source` to `GitHub Actions`.
-4. Push to the `main` branch.
-5. The workflow will install dependencies, build the Vite project, and deploy the `dist` folder to GitHub Pages.
+4. Add or enable a GitHub Pages deployment workflow.
+5. Push to the `main` branch.
 
 ### Vite Base Path
 
@@ -124,7 +130,7 @@ the base path must be:
 base: "/"
 ```
 
-This project's `vite.config.ts` automatically uses `/${repository-name}/` during GitHub Actions for normal repository pages, and `/` for `username.github.io` repositories.
+This project's `vite.config.ts` can use `/${repository-name}/` during GitHub Actions for normal repository pages, and `/` for `username.github.io` repositories.
 
 You can override it manually:
 
@@ -186,7 +192,7 @@ For `https://username.github.io/repository-name/`, make sure the base path is `/
 
 For `https://username.github.io/`, make sure the base path is `/`.
 
-The included config handles this automatically in GitHub Actions, but if you build manually, set `VITE_BASE_PATH`.
+If you build manually, set `VITE_BASE_PATH`.
 
 ### Dependency Install Issues
 
