@@ -38,7 +38,7 @@ export const projects: Project[] = [
       "Designed a geospatial dashboard for operational visibility.",
     ],
     links: [
-      { label: "Add GitHub link", href: "#", placeholder: true },
+      { label: "GitHub", href: "https://github.com/Ayush141910/aegisflow-risk-platform" },
       { label: "Add live demo link", href: "#", placeholder: true },
       { label: "Add case study link", href: "#", placeholder: true },
     ],
