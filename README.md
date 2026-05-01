@@ -14,9 +14,6 @@ I am a Master's student in Data Science at the University of Texas at Arlington.
 - **ValorPredict** — Valorant match outcome predictor and performance analyzer with machine learning models and a Streamlit dashboard.
 - **Food For U** — Flutter-based restaurant recommendation app powered by user taste profiles, restaurant data, and ETL pipelines.
 
-## Tech Stack
-
-React, Vite, TypeScript, Tailwind CSS, Framer Motion, and Lucide React.
 
 ## Connect
 
