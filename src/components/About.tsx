@@ -5,23 +5,23 @@ import { SectionWrapper } from "./SectionWrapper";
 const focusCards = [
   {
     icon: BrainCircuit,
-    title: "Machine learning that ships",
-    text: "Modeling work connected to dashboards, predictions, and decision support rather than isolated notebooks.",
+    title: "Predictive analytics",
+    text: "Machine learning, regression analysis, feature engineering, and risk stratification tied to business decisions.",
   },
   {
     icon: Workflow,
-    title: "Automation-minded execution",
-    text: "Experience improving workflows through Python automation, SQL migration, documentation, and repeatable pipelines.",
+    title: "Reporting automation",
+    text: "ETL, data cleaning, data transformation, and automated reporting workflows built around repeatable execution.",
   },
   {
     icon: Database,
-    title: "Data systems foundation",
-    text: "Projects spanning Kafka, Spark Structured Streaming, Delta Lake, Airflow, Great Expectations, and MLflow.",
+    title: "Warehouse-ready analysis",
+    text: "Experience with SQL, Snowflake, PostgreSQL, MySQL, healthcare datasets, claims data, and transaction data.",
   },
   {
     icon: LineChart,
-    title: "Clear measurable impact",
-    text: "Quantified work across data accuracy, inventory processing, customer acquisition, and user engagement.",
+    title: "Dashboard storytelling",
+    text: "Power BI and Tableau reporting that turns KPIs, risk trends, and operational signals into clear narratives.",
   },
 ];
 
@@ -30,7 +30,7 @@ export function About() {
     <SectionWrapper
       id="about"
       eyebrow="About"
-      title="A practical data builder with a product mindset."
+      title="A data analyst focused on useful, decision-ready analytics."
       subtitle={profile.about}
     >
       <div className="grid gap-4 lg:grid-cols-4">

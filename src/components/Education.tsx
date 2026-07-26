@@ -7,8 +7,8 @@ export function Education() {
     <SectionWrapper
       id="education"
       eyebrow="Education"
-      title="Academic foundation in data science, engineering, and analytical systems."
-      subtitle="Academic background supporting the data and automation work."
+      title="Academic foundation in data science and engineering."
+      subtitle="Education supporting analytics, statistical modeling, data systems, and business reporting work."
     >
       <div className="grid gap-5 md:grid-cols-2">
         {education.map((item) => (
@@ -19,15 +19,19 @@ export function Education() {
             <div className="mb-5 grid h-12 w-12 place-items-center rounded-2xl bg-slate-950 text-cyanline dark:bg-white/10">
               <GraduationCap size={22} aria-hidden="true" />
             </div>
-            <p className="text-sm font-semibold text-cyan-700 dark:text-cyanline">{item.dates}</p>
+            {item.dates ? (
+              <p className="text-sm font-semibold text-cyan-700 dark:text-cyanline">{item.dates}</p>
+            ) : null}
             <h3 className="mt-2 text-2xl font-semibold text-slate-950 dark:text-white">{item.institution}</h3>
             <p className="mt-2 text-base font-semibold text-slate-700 dark:text-slate-200">
               {item.degree}, {item.field}
             </p>
             <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">{item.location}</p>
-            <p className="mt-5 inline-flex rounded-full border border-signal/30 bg-signal/10 px-4 py-2 text-sm font-semibold text-emerald-800 dark:text-signal">
-              GPA: {item.gpa}
-            </p>
+            {item.gpa ? (
+              <p className="mt-5 inline-flex rounded-full border border-signal/30 bg-signal/10 px-4 py-2 text-sm font-semibold text-emerald-800 dark:text-signal">
+                GPA: {item.gpa}
+              </p>
+            ) : null}
           </article>
         ))}
       </div>
