@@ -1,12 +1,12 @@
 # Ayush Meshram
 
-Personal portfolio for my work in data science, machine learning, analytics automation, and data engineering.
+Personal portfolio for my work in data analysis, business intelligence, healthcare analytics, fraud analytics, and predictive analytics.
 
-Live portfolio: [portfolio-two-orcin-btti7o0q2p.vercel.app](https://portfolio-two-orcin-btti7o0q2p.vercel.app)
+Live portfolio: [ayush-meshram.vercel.app](https://ayush-meshram.vercel.app)
 
 ## About
 
-I am a Master's student in Data Science at the University of Texas at Arlington. My work focuses on practical data products: machine learning pipelines, analytics dashboards, automated workflows, and real-time data systems.
+I am a Data Analyst with experience across healthcare analytics, fraud analytics, KPI reporting, ETL processes, statistical analysis, predictive modeling, and data visualization. My work focuses on clean data models, practical dashboards, and business-ready insights using SQL, Python, Power BI, Tableau, and Snowflake.
 
 ## Featured Work
 
@@ -17,6 +17,6 @@ I am a Master's student in Data Science at the University of Texas at Arlington.
 
 ## Connect
 
-- Portfolio: [portfolio-two-orcin-btti7o0q2p.vercel.app](https://portfolio-two-orcin-btti7o0q2p.vercel.app)
+- Portfolio: [ayush-meshram.vercel.app](https://ayush-meshram.vercel.app)
 - GitHub: [github.com/Ayush141910](https://github.com/Ayush141910)
 - LinkedIn: [linkedin.com/in/ayush-meshram025](https://www.linkedin.com/in/ayush-meshram025/)
