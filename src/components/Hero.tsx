@@ -5,18 +5,18 @@ import { profile } from "../data/profile";
 const buildAreas = [
   {
     icon: Database,
-    title: "Analytics data models",
-    text: "SQL, Snowflake, PostgreSQL, MySQL",
+    title: "RAG systems",
+    text: "LangChain, Azure OpenAI, FAISS",
   },
   {
     icon: BrainCircuit,
-    title: "Predictive analysis",
-    text: "Python, scikit-learn, XGBoost",
+    title: "ML engineering",
+    text: "PyTorch, TensorFlow, XGBoost",
   },
   {
     icon: BarChart3,
-    title: "BI dashboards",
-    text: "Power BI, Tableau, KPI reporting",
+    title: "Production inference",
+    text: "FastAPI, Docker, SageMaker",
   },
 ];
 
@@ -35,7 +35,7 @@ export function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyanline/35 bg-cyanline/10 px-4 py-2 text-sm font-semibold text-slate-700 shadow-glow backdrop-blur dark:text-cyanline">
             <span className="h-2 w-2 rounded-full bg-signal shadow-[0_0_14px_rgba(52,211,153,0.8)]" />
-            Open to data analyst, BI, healthcare analytics, and fraud analytics roles
+            Open to AI/ML, generative AI, computer vision, and MLOps roles
           </div>
 
           <p className="mb-4 flex items-center gap-2 text-sm font-medium text-slate-600 dark:text-slate-300">
@@ -113,9 +113,9 @@ export function Hero() {
             <div className="grid gap-4">
               <div className="rounded-3xl border border-slate-200/80 bg-slate-950 p-5 text-white shadow-glow dark:border-white/10">
                 <p className="text-xs font-semibold uppercase text-cyanline">Core focus</p>
-                <h2 className="mt-3 text-2xl font-semibold">Analytics that connects data, decisions, and reporting.</h2>
+                <h2 className="mt-3 text-2xl font-semibold">AI systems that connect models, retrieval, and production workflows.</h2>
                 <p className="mt-3 text-sm leading-7 text-slate-300">
-                  I build practical analytics workflows where data cleaning, statistical analysis, dashboards, and predictive insights connect to business action.
+                  I build practical ML products where data processing, model evaluation, RAG, inference APIs, and deployment pipelines connect into usable systems.
                 </p>
               </div>
 

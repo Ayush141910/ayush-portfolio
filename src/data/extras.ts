@@ -1,6 +1,13 @@
 export const extras = {
   certifications: [],
-  publications: [],
+  publications: [
+    {
+      title: "Conceptualization of Food for U: A Mobile Application for Tourists",
+      authors: "Ayush Meshram, Ayush Nandanwar, Aniket Jadhav, Sharwari Prabhughate, Varsha Turkar",
+      description:
+        "Presented Food For U, a mobile restaurant recommendation application for tourists that uses taste preferences, dietary needs, and restaurant/menu attributes to support personalized food discovery.",
+    },
+  ],
   research: [],
   awards: [],
   leadership: [],

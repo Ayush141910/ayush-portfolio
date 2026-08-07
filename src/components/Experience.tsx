@@ -7,8 +7,8 @@ export function Experience() {
     <SectionWrapper
       id="experience"
       eyebrow="Experience"
-      title="Data analyst experience across healthcare and financial analytics."
-      subtitle="A concise timeline focused on dashboards, statistical analysis, predictive modeling, compliance reporting, and measurable business outcomes."
+      title="AI/ML engineering experience across generative AI, fraud detection, and scalable inference."
+      subtitle="A concise timeline focused on RAG systems, computer vision, model governance, semantic search, CI/CD, and measurable ML outcomes."
     >
       <div className="relative space-y-5 before:absolute before:left-5 before:top-8 before:h-[calc(100%-4rem)] before:w-px before:bg-gradient-to-b before:from-cyanline before:via-plasma before:to-transparent">
         {experiences.map((item) => (
@@ -34,7 +34,7 @@ export function Experience() {
               <div className="mt-5 flex flex-wrap gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-semibold text-slate-600 dark:border-white/10 dark:bg-white/[0.06] dark:text-slate-300">
                   <BriefcaseBusiness size={18} aria-hidden="true" />
-                  Data Analytics
+                  AI/ML Engineering
                 </span>
               </div>
               <ul className="mt-5 space-y-3">

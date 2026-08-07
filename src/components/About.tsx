@@ -5,23 +5,23 @@ import { SectionWrapper } from "./SectionWrapper";
 const focusCards = [
   {
     icon: BrainCircuit,
-    title: "Predictive analytics",
-    text: "Machine learning, regression analysis, feature engineering, and risk stratification tied to business decisions.",
+    title: "Generative AI systems",
+    text: "RAG, prompt schemas, semantic search, and evidence-based answer workflows built for production use.",
   },
   {
     icon: Workflow,
-    title: "Reporting automation",
-    text: "ETL, data cleaning, data transformation, and automated reporting workflows built around repeatable execution.",
+    title: "Model evaluation",
+    text: "Cross-validation, ROC-AUC, precision, recall, F1, A/B testing, and review loops for measurable quality.",
   },
   {
     icon: Database,
-    title: "Warehouse-ready analysis",
-    text: "Experience with SQL, Snowflake, PostgreSQL, MySQL, healthcare datasets, claims data, and transaction data.",
+    title: "Computer vision pipelines",
+    text: "OpenCV, OCR, object detection, segmentation, and real-time inference patterns for high-volume visual workflows.",
   },
   {
     icon: LineChart,
-    title: "Dashboard storytelling",
-    text: "Power BI and Tableau reporting that turns KPIs, risk trends, and operational signals into clear narratives.",
+    title: "MLOps delivery",
+    text: "FastAPI services, Docker, SageMaker, GitHub Actions, MLflow, and CI/CD pipelines for repeatable deployment.",
   },
 ];
 
@@ -30,7 +30,7 @@ export function About() {
     <SectionWrapper
       id="about"
       eyebrow="About"
-      title="A data analyst focused on useful, decision-ready analytics."
+      title="An AI/ML engineer focused on applied, production-minded systems."
       subtitle={profile.about}
     >
       <div className="grid gap-4 lg:grid-cols-4">

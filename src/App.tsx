@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { Navbar } from "./components/Navbar";
 import { Projects } from "./components/Projects";
+import { Publications } from "./components/Publications";
 import { ScrollProgress } from "./components/ScrollProgress";
 import { Skills } from "./components/Skills";
 
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Experience />
         <Education />
+        <Publications />
         <Contact />
       </main>
       <Footer />

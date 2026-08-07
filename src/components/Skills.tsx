@@ -9,8 +9,8 @@ export function Skills() {
     <SectionWrapper
       id="skills"
       eyebrow="Skills"
-      title="A compact technical toolkit for modern data work."
-      subtitle="Grouped so the technical range is easy to scan."
+      title="A compact AI/ML engineering toolkit."
+      subtitle="Grouped for machine learning, GenAI, computer vision, deployment, and MLOps scanning."
     >
       <div className="grid gap-5 lg:grid-cols-2">
         {skillGroups.map((group, groupIndex) => (

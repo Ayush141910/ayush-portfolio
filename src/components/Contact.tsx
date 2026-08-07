@@ -43,8 +43,8 @@ export function Contact() {
     <SectionWrapper
       id="contact"
       eyebrow="Contact"
-      title="Let’s build, analyze, and automate something useful."
-      subtitle="Use email, LinkedIn, or GitHub to connect."
+      title="Let’s build useful AI systems with measurable impact."
+      subtitle="Use email, LinkedIn, or GitHub to connect about AI/ML, GenAI, computer vision, and MLOps roles."
     >
       <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
         <div className="rounded-3xl border border-slate-200/80 bg-slate-950 p-7 text-white shadow-card-glow dark:border-white/10">

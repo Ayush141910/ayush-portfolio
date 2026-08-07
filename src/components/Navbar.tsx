@@ -4,6 +4,7 @@ import { useState } from "react";
 import { profile } from "../data/profile";
 import { education } from "../data/education";
 import { experiences } from "../data/experience";
+import { extras } from "../data/extras";
 import { projects } from "../data/projects";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -14,6 +15,7 @@ const navItems = [
   { label: "Skills", href: "#skills", show: true },
   { label: "Experience", href: "#experience", show: experiences.length > 0 },
   { label: "Education", href: "#education", show: education.length > 0 },
+  { label: "Publication", href: "#publications", show: extras.publications.length > 0 },
   { label: "Contact", href: "#contact", show: true },
 ].filter((item) => item.show);
 
